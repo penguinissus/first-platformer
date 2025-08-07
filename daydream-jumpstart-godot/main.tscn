@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=4 uid="uid://cr4rhmfsx8l0m"]
 
-[ext_resource type="Texture2D" uid="uid://bxl15njiveshb" path="res://icon.svg" id="1_0xm2m"]
 [ext_resource type="Script" uid="uid://cw6o36klmludp" path="res://player.gd" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://ck8ie7kl0kr2p" path="res://popcat.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://t46yupo0g6xh" path="res://rock road.jpg" id="2_h2yge"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1bvp3"]
@@ -413,8 +413,8 @@ script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 position = Vector2(-89, 598)
-scale = Vector2(0.1875, 0.230469)
-texture = ExtResource("1_0xm2m")
+scale = Vector2(0.0691643, 0.0864551)
+texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(-89, 598)
