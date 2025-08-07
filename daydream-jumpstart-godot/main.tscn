@@ -1,10 +1,9 @@
-[gd_scene load_steps=9 format=4 uid="uid://cr4rhmfsx8l0m"]
+[gd_scene load_steps=8 format=4 uid="uid://cr4rhmfsx8l0m"]
 
 [ext_resource type="Script" uid="uid://cw6o36klmludp" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://ck8ie7kl0kr2p" path="res://popcat.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://t46yupo0g6xh" path="res://rock road.jpg" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://6uttjh4yw5uv" path="res://left arrow.png" id="4_lquwl"]
-[ext_resource type="Texture2D" uid="uid://bblcfg66tgy5p" path="res://right arrow.png" id="5_7mycd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1bvp3"]
 size = Vector2(24, 30)
@@ -434,11 +433,16 @@ tile_map_data = PackedByteArray("AAD4/wAAAAALAAEAAAD4/wEAAAALAAEAAAD4/wIAAAALAAE
 tile_set = SubResource("TileSet_h2yge")
 
 [node name="leftArrow" type="Sprite2D" parent="."]
-position = Vector2(-34, 619)
+position = Vector2(530, 506)
 scale = Vector2(0.0861112, 0.0972222)
 texture = ExtResource("4_lquwl")
 
-[node name="rightArrow" type="Sprite2D" parent="."]
-position = Vector2(67, 622)
-scale = Vector2(0.3, 0.366667)
-texture = ExtResource("5_7mycd")
+[node name="leftArrow2" type="Sprite2D" parent="."]
+position = Vector2(382, 91)
+scale = Vector2(0.0861112, 0.0972222)
+texture = ExtResource("4_lquwl")
+
+[node name="leftArrow3" type="Sprite2D" parent="."]
+position = Vector2(534, -360)
+scale = Vector2(0.0861112, 0.0972222)
+texture = ExtResource("4_lquwl")
